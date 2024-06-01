@@ -1,0 +1,45 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.artworks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.artwork-item {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.artwork-item img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.artwork-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+.artwork-item p {
+    color: #777;
+    font-size: 0.9rem;
+}
+

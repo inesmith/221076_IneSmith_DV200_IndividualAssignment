@@ -1,0 +1,42 @@
+/* ItemDetail.css */
+.item-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.item-detail-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.item-detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-detail-title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.item-detail-artist {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.item-detail-description {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.item-detail-price {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-top: 10px;
+}
